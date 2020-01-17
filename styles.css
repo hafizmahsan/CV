@@ -1,0 +1,338 @@
+/* Styling the body of the main page and other pages HTML page; */
+.page {
+  text-align: center;
+  line-height: 2;
+  background-color: #edf7fa;
+}
+/* Here I am styling header table */
+.header_table {
+  background: #1a2849;
+  margin: auto;
+  width: 100%;
+  height: auto;
+  border-radius: 1em;
+}
+
+/* Here I am styling header links */
+.header_link{
+  color: white;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 1.5em;
+  text-decoration: none;
+}
+/* Here I am styling Horizontal Rule */
+hr{
+
+
+  border: dotted #90303d 8px;
+  width: 5%;
+  border-bottom: none;
+  margin: 8em auto;
+
+}
+
+/* Here I am styling the anchor tag */
+a{
+  color: #010038;
+}
+a:hover{
+color: #8186d5;
+}
+/* First DIV tag named display */
+
+/* Here we are styling the elements of class display of the DIV tag*/
+.display {
+
+  display: inline-block;
+  width: 100%;
+  height:32em;
+  background-color: #edf7fa;
+  /* border:2px solid red;
+  border-radius: 5px; */
+}
+/* Here we are styling Sun Picture */
+.sun_pic{
+  margin-top: 5em;
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: 2em;
+  width: 15%;
+}
+
+/* Here we are styling the Rainbow Picture */
+.rainbow_pic{
+  margin-top: 5em;
+  display: inline-block;
+  position: absolute;
+  top: 1em;
+  right: 10em;
+  width: 15%;
+}
+
+/* Here we are styling Upper Cloud Picture */
+.cloud_pic{
+  margin-top: 5em;
+  display: inline-block;
+  position: absolute;
+  top: 1em;
+  right: 4em;
+  width: 15%;
+}
+
+/* Here we are styling Lower Cloud Picture */
+.bottom_cloud_pic{
+  display: inline-block;
+  position: absolute;
+  top: 15em;
+  left: 8em;
+  width: 15%;
+}
+
+/* Here we are styling the Rainbow Picture */
+.lower_rainbow_pic{
+  display: inline-block;
+  position: absolute;
+  top: 15em;
+  left: 12em;
+  width: 15%;
+}
+/* Here we are styling the Bird Picture */
+.bird_pic{
+  display: inline-block;
+  position: absolute;
+  top: 15em;
+  right: 2em;
+  width: 15%;
+}
+
+/* Second display: tag named top_container;*/
+
+/* Here we are styling the elements of class top_container DIV tag. */
+.profile_pic {
+  margin-top: 2em;
+  width: 20%;
+  height: auto;
+}
+/* Here we are styling the span tag */
+span {
+  font-style: italic;
+  text-decoration: underline;
+  font-weight: bold;
+}
+p
+{
+  color:#5d1451;
+  font-family: 'Arvo', serif;
+  display: inline-block;
+}
+h1{
+  color: #293a80;
+
+  font-family: 'Lobster', cursive;
+  display: inline-block;
+}
+
+/* Here I am styling h2 and h3 */
+h2 , h3{
+  color: #00818a;
+font-family: 'Abel', sans-serif;
+}
+/* Here we are styling the "my_bio" paragraph */
+.my_bio {
+
+  display: inline-block;
+  width: 25%;
+  margin: auto;
+}
+/* Here we are styling the skills table */
+.table_skills {
+  margin: auto;
+  width: 75%;
+  height: auto;
+}
+/* Here we are styling the pics inside the table */
+.table_pics{
+  height: 5em;
+  width: 5em;
+}
+/* Here we are styling the data of the table */
+.table_data{
+  font-weight: bold;
+}
+
+/* Third DIV tag named interest */
+
+/* Here we are Styling the 3rd DIV tag named interest */
+
+
+/* Here we are styling the class interest1_description  */
+.interest1_description{
+  margin: 10em auto auto auto;
+  width: 100%;
+  text-align: left;
+}
+
+/* Here we are styling the class interest2_description  */
+.interest2_description{
+  margin: 10em auto auto auto;
+  width: 100%;
+  text-align: right;
+}
+
+
+
+/* Here we are styling the cricket's image */
+.cricket_img{
+  width: 15%;
+  float: left;
+  margin-right: 3em;
+}
+/* Here we are styling cricket's description */
+.cricket_description
+{
+  text-align: center;
+  float: left;
+  width: 50%;
+}
+
+
+/* Here we are styling the programming's image */
+.programming_img{
+  width: 15%;
+  float: right;
+  margin-left: 3em;
+}
+/* Here we are styling programming's description */
+.programming_description{
+  text-align: center;
+  float: right;
+  width: 50%;
+}
+
+
+/* Here we are styling the learning's image */
+.learning_img{
+  width: 15%;
+  float: left;
+  margin-right: 3em;
+}
+/* Here we are styling learning's description */
+.learning_description
+{
+  text-align: center;
+  float: left;
+  width: 50%;
+}
+
+
+/* Here we are styling the reading's image */
+.reading_img{
+  width: 15%;
+  float: right;
+  margin-left: 3em;
+}
+/* Here we are styling reading's description */
+.reading_description
+{
+  text-align: center;
+  float: right;
+  width: 50%;
+}
+
+
+/* ------------------------------------------------------------------------------------- */
+
+
+
+/* Styling the body of the contact HTML page; */
+.contact_page {
+  /* text-align: center; */
+  line-height: 5;
+  background-color: #effcef;
+
+  margin:15em auto auto auto;
+
+}
+/* Styling the form div tag */
+.form_div{
+  font-family: 'Abril Fatface', cursive;
+  width: 40em;
+  height: auto;
+  border-radius: 0.5em;
+  border-color: #ebe6e6;
+  text-align: center;
+  display: inline-block;
+  position: absolute;
+  left: 35em;
+  /* margin: auto 5em auto auto; */
+}
+/* Styling three classes :  name description , mail description and msg description */
+.name_description , .mail_description, .msg_description{
+  display: inline-block;
+  position: relative;
+  left: 10em;
+  width: 15em;
+  height: auto;
+
+border-radius: 0.5em;
+border-color: #ebe6e6;
+
+}
+
+/* Here I am stylig Tree Image */
+.tree{
+  display: inline-block;
+  position: absolute;
+  left: 2em;
+}
+
+/* Here I am styling paragraph of COntact page */
+.send{
+  width: 50%;
+}
+/* Here I am styling Contact Me message */
+.Contat_Message{
+  width: 50%;
+}
+/* Here I am styling the Contact me button */
+.btn {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-family: 'Montserrat', sans-serif;
+  font-size: 26px;
+  padding: 23px;
+  text-shadow: 0px -1px 0px rgba(30, 30, 30, 0.8);
+  -webkit-border-radius: 19.45945945945946px;
+  -moz-border-radius: 19.45945945945946px;
+  border-radius: 19.45945945945946px;
+  background: rgb(0, 0, 170);
+  background: -moz-linear-gradient(90deg, rgb(0, 0, 170) 30%, rgb(0, 0, 163) 73%);
+  background: -webkit-linear-gradient(90deg, rgb(0, 0, 170) 30%, rgb(0, 0, 163) 73%);
+  background: -o-linear-gradient(90deg, rgb(0, 0, 170) 30%, rgb(0, 0, 163) 73%);
+  background: -ms-linear-gradient(90deg, rgb(0, 0, 170) 30%, rgb(0, 0, 163) 73%);
+  background: linear-gradient(0deg, rgb(0, 0, 170) 30%, rgb(0, 0, 163) 73%);
+  -webkit-box-shadow: 0px 2px 1px rgba(50, 50, 50, 0.75);
+  -moz-box-shadow: 0px 2px 1px rgba(50, 50, 50, 0.75);
+  box-shadow: 0px 2px 1px rgba(50, 50, 50, 0.75);
+}
+
+
+/* -------------------------------------------- */
+
+/* Here I am styling the Footer */
+.footer{
+  width: 100%;
+  height: 25%;
+  background: #1a2849;
+}
+/* Here I am styling footer link */
+.footer_link{
+  color: white;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  text-decoration: none;
+}
+/* Here I am styling CopyRIghts */
+.copy_rights{
+  color: white;
+}
